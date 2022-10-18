@@ -1,0 +1,111 @@
+html, body {
+    margin: 0;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+main {
+    height: 100%;
+}
+
+body {
+    padding-bottom: 5%;
+}
+
+.queryForm {
+    margin-top: 15%;
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.queryForm select {
+    margin: 10px;
+    width: 130px;
+    height: 30px;
+    font-size: 15px;
+}
+
+.queryForm input {
+    height: 40px;
+    width: 200px;
+    margin: 15px;
+    background-color: greenyellow;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+
+.report {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    border: 1px solid black;
+    margin-top: 5%;
+}
+
+.report .title {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+ 
+
+.backform {
+    margin: 30px;
+    text-align: center;
+    height: 40px;
+}
+
+.backform input {
+    height: 40px;
+    width: 200px;
+    background-color: greenyellow;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.backform input:hover {
+    box-shadow:  0 0 10px rgba(0,0,0,0.5);
+}
+
+.queryForm input:hover {
+    box-shadow:  0 0 10px rgba(0,0,0,0.5);
+}
+
+.report table {
+    width: 100%;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.report p {
+    margin: 0;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.formTitle {
+    text-align: center;
+    font-weight: bold;
+}
+
+.ifEmpty {
+    z-index: 1000;
+    position: absolute;
+    width: 70%;
+    height: 50vh;
+    text-align: center;
+    vertical-align: middle;
+    background-color: red;
+    margin-bottom: 50%;
+    font-size: 500%;
+}
