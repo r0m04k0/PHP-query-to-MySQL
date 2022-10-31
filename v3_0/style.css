@@ -1,0 +1,29 @@
+
+
+footer {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+
+.navbar-nav {
+    text-align: center !important;
+
+}
+
+main {
+    width: 50%;
+    margin:auto;
+    margin-top: 10%;
+    padding: auto;
+}
+
+.form-check-input:checked {
+    background-color: #000000 !important;
+    border-color: #000000 !important;
+}
+
+img {
+    width: 150px !important;
+    height: 40px;
+}
